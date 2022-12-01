@@ -12,12 +12,15 @@
   "devDependencies": {
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
-    "turbo": "^1.4.6"
+    "turbo": "^1.6.3"
   },
   "husky": {
     "hooks": {
       "pre-commit": "turbo run lint"
     }
   },
-  "packageManager": "pnpm@7.5.0"
+  "packageManager": "pnpm@7.5.0",
+  "dependencies": {
+    "pnpm": "^7.17.1"
+  }
 }
